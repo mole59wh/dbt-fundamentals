@@ -1,0 +1,82 @@
+user:
+  outputs:
+    default:
+      keyfile_json:
+        auth_provider_x509_cert_url: https://www.googleapis.com/oauth2/v1/certs
+        auth_uri: https://accounts.google.com/o/oauth2/auth
+        client_email: dbt-user@project-d77ca2ea-fa92-4853-84c.iam.gserviceaccount.com
+        client_id: '105363650673129230103'
+        client_x509_cert_url: https://www.googleapis.com/robot/v1/metadata/x509/dbt-user%40project-d77ca2ea-fa92-4853-84c.iam.gserviceaccount.com
+        private_key: '-----BEGIN PRIVATE KEY-----
+
+          MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDEedc6TqeBT6Bh
+
+          QPVDM6wShWFJMmMa4sGmCQQdLkm+y/VI4vnDtTfZgM1OoGwylYymiBuuIY4MgkzV
+
+          btEWOENirZ79C1E1W7F2URa9RysOcJpq00uclaq0u2tS452NeHMFVdGJiyFBz1BE
+
+          lmkSWnTh6+w9873Bq0UejWp2XW3HU0IrGLwNjOMG0M/RMuPQ5uAVpqC152iT3T/J
+
+          m27XwjLky/pgMFiyOZIfEdHtosuUi8RghWPrl21jCHQo4urvXT07Gf/Pchwn7Y+1
+
+          FZPSTyua0lhhvRDmv/YVmLP4NICJWYIhCGKvbLInEdh5Sl44Dk4uTritfTrRar9w
+
+          R3joH5N5AgMBAAECggEABFSX/rflnO5I1VbdqJnKEDrcrenbtd2fmhYkeH3dlRUk
+
+          KtGsM4MTYBtoLmbjhAjaAT05lvW65iVC9ucCblYncW9mHLCGlrDaG15jHtBZilTv
+
+          qRitjbIhHH77Hh4A1DGtmJZZlr+aIXie3o1ltrrzJHOdUObGCLZex5TSdaBBBHwa
+
+          30gB9f8ghS8lQKQHENw0MTDNrIvGL90TN19jvuqmy+gNWF4K4gj6mTExf0rtFiMe
+
+          FqHsfluNIvSXM/kXdrEn21Pb2S2A5POHuDkcupdeo11qlHCRXMt2k68mYDBrLhg8
+
+          GdYVAHuWSQctPcm/GPimVNpj0B37ZsxXchI0P21M7QKBgQD76/PX1MqWvBtLtuM2
+
+          BWwGzXbuYoqsfK2DiKLH5h8LFlAqPsJ7GQ8NFkssTkVCqyGpJtvs8jKyFuI1jqqz
+
+          wefdQuXyBFbT3QCMg61NSXF5k3ipb2QkCO//NAob8XelNbzM5tphUCpT8KefDa8F
+
+          27Spr/Qo+ji1JuPjQq87BtOdpwKBgQDHqBpAkzHNtxKfcWbC1ue7SeTiUfx7fq2S
+
+          N9847MD4nwhA7AY+91qrTb6y5MqXyaLQ/iFQMg00rG6eUS/kdcwecyMyCNctVFsG
+
+          ua2d/1uIXxPUDy5l1sqedxnpaoZrfT4zq8JdJnq/q/l/VCZSJHwEghszf7i4Hxz5
+
+          lKT5Olqp3wKBgQDXIJY5wFhEQlxY2tPKhPTMFlcymOntBAc0ZNEFPYlS8XoBqVhw
+
+          wGRu+5O0QR66ION8zFdQTz9lf08rByrUmIjFFOTCOFxhTb+zPpsWfdouRPXsUthE
+
+          QXGZEDp1xE00wt/4ZkckhM2worixhYDp0sXDhiNNfuhAIfbHUmHLWTgKzwKBgQCl
+
+          pVVqf/TRDPOZbzdnrW8DFxKbppPITdhpuIstqleLrj3lxyyDbys9drohp+phtnur
+
+          0zwGUhBcxDbeiNMoQ4c/OB1aNLV5uUPwN3rQ2/ywDtnflVzURzlB8eSAoM23Pmit
+
+          6/HM4ND0VxUfy8wjWHvALcWtm2jA8adTdjzNPdnclwKBgQC3YvcJfRLCHnmDSqGT
+
+          Od0uDxmT+GO31Co3ywv0HuqgHadl6154h9JmZlDoT1bfa1ycjVc4/Ds52EMIFvNX
+
+          y6Q8TomqiTtVGpCIFC3wCLyDb6sLFwujhJQsbZG4NcwUpxnx3odItkwio1Qcntmi
+
+          SNBK4Lf0Rba+nAlwzXOnkxJ1ow==
+
+          -----END PRIVATE KEY-----
+
+          '
+        private_key_id: 6c09a635c43a2a44d08a7c5dc95d28f7c37cf5dc
+        project_id: project-d77ca2ea-fa92-4853-84c
+        token_uri: https://oauth2.googleapis.com/token
+        type: service_account
+      method: service-account-json
+      project: project-d77ca2ea-fa92-4853-84c
+      schema: dbt_mole59wh
+      scopes:
+      - https://www.googleapis.com/auth/bigquery
+      - https://www.googleapis.com/auth/cloud-platform
+      - https://www.googleapis.com/auth/drive
+      - https://www.googleapis.com/auth/userinfo.email
+      target_name: default
+      threads: 4
+      type: bigquery
+  target: default
